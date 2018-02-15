@@ -1,0 +1,21 @@
+{
+  "name": "callbag-from-stream",
+  "version": "1.0.0",
+  "description": "Convert a readable stream (EventEmitter with data / end / error events) to a callbag listenable source",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaw977/callbag-from-stream.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [
+    "callbag"
+  ],
+  "author": "Jason Waag",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
